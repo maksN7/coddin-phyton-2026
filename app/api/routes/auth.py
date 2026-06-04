@@ -34,3 +34,8 @@ async def read_me(current_user: CurrentUser) -> UserRead:
 @router.get("/private-note")
 async def private_note(current_user: CurrentUser) -> dict[str, str]:
     return {"message": f"Hello, {current_user.username}. This route requires JWT authentication."}
+
+
+@router.post("/logout", status_code=status.HTTP_204_NO_CONTENT)
+async def logout(response: Response) -> None:
+    response.delete_cookie("access_token")
