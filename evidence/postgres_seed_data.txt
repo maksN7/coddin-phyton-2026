@@ -1,0 +1,35 @@
+﻿ id |        email         | username | is_active 
+----+----------------------+----------+-----------
+  1 | admin@example.com    | admin    | t
+  2 | customer@example.com | customer | t
+(2 rows)
+
+ id | name  |          description          
+----+-------+-------------------------------
+  1 | Books | Educational books and manuals
+  2 | Tech  | Small useful tech products
+(2 rows)
+
+ id |       name       | price | stock | category_id 
+----+------------------+-------+-------+-------------
+  1 | FastAPI Workbook | 25.50 |    15 |           1
+  2 | Compact Keyboard | 49.99 |     8 |           2
+(2 rows)
+
+ id | user_id |   full_name   |     phone     | address 
+----+---------+---------------+---------------+---------
+  1 |       1 | Admin User    | +380000000001 | Kyiv
+  2 |       2 | Customer User | +380000000002 | Lviv
+(2 rows)
+
+ id | user_id | status 
+----+---------+--------
+  1 |       2 | paid
+(1 row)
+
+ id | order_id | product_id | quantity | unit_price 
+----+----------+------------+----------+------------
+  1 |        1 |          1 |        1 |      25.50
+  2 |        1 |          2 |        1 |      49.99
+(2 rows)
+

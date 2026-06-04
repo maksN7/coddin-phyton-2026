@@ -1,0 +1,9 @@
+﻿{
+    "tool":  "PowerShell HTTP client, Postman-equivalent verification",
+    "login":  "bearer",
+    "authenticated_user":  "admin",
+    "products_count":  2,
+    "post_category_id":  5,
+    "put_category_name":  "Postman Evidence Updated",
+    "delete":  "204 no content"
+}
