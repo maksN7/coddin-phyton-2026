@@ -2,7 +2,7 @@
 
 Навчальний проєкт для лабораторних робіт 1-5:
 
-- Poetry замість pip для керування залежностями.
+- Poetry замість pip для керування залежностями./
 - FastAPI з роутерами та Pydantic-схемами.
 - Docker Compose: API-контейнер з autoreload і PostgreSQL.
 - Async SQLAlchemy, Alembic міграції, seed-дані.
