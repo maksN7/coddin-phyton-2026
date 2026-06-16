@@ -1,6 +1,6 @@
 """initial schema
 
-Revision ID: 202606050001
+Revisiоn ID: 202606050001
 Revises:
 Create Date: 2026-06-05 02:00:00
 """
