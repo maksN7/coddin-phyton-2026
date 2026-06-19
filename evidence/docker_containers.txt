@@ -1,3 +1,0 @@
-﻿NAME               IMAGE                    COMMAND                  SERVICE   CREATED         STATUS                   PORTS
-fastapi_labs_api   coddin-phyton-2026-api   "/app/entrypoint.sh"     api       3 minutes ago   Up 3 minutes             0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
-fastapi_labs_db    postgres:16-alpine       "docker-entrypoint.s…"   db        5 minutes ago   Up 5 minutes (healthy)   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
