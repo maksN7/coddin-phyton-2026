@@ -1,9 +1,0 @@
-﻿cfba205 (HEAD -> dev) Dev evidence: label screenshots by lab
-1e39729 (origin/dev) Dev evidence: add lab screenshots and verification logs
-bb6c3f6 (origin/prod, prod) Add Poetry lock file
-992c54e Fix bcrypt version for Passlib compatibility
-826e875 Lab 5: add JWT auth workflow examples
-1ee5dc6 Lab 4: add async Postgres schema and Alembic migration
-aa6886e Lab 3: implement routed FastAPI CRUD structure
-103c466 Lab 2: add Docker Compose FastAPI and Postgres
-5e3b6d6 Lab 1: create FastAPI Poetry template
